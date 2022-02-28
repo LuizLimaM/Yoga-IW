@@ -19,6 +19,10 @@ p,a,li{
     font-size: 1em;
 }
 
+.imagem{
+    border-radius: 50%;
+}
+
 .rodape{
     color: #f0f0f0;
     font-weight: bolder;
@@ -33,3 +37,44 @@ p,a,li{
     font-size: 4em;
     font-weight: bolder;
 }
+
+/*=================================================================
+  Modal
+==================================================================*/
+.modal-header, .modal-body{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .modal-header span{
+    color:#c05954;
+  }
+  
+  .modal-body li{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #923e4d;
+    font-size: 18px;
+    margin-bottom: 1.5%;
+  }
+  
+  .modal-body h3{
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+  }
+  
+  .modal-body h5{
+    margin-top: 8%;
+  }
+  
+  .modal-body p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #632245;
+    font-size: 18px;
+    margin-bottom: 1.5%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;right: 10px;
+  }
